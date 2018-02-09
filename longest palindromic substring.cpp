@@ -1,3 +1,10 @@
+/***
+This is a C++ code for finding the Longest Palindromic Substring from a given String.
+***/
+
+// Given: A String s.
+// Returns: the longest Substring Palindromic substring of s.
+// Example:  longestPalindrome("iammadam") => "madam"
 string longestPalindrome(string s) 
 {
     int n = s.length();

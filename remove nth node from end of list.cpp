@@ -1,4 +1,10 @@
 /**
+This is a C++ code for removing the n^th node from the end of a linked list.
+*/
+
+
+
+/**
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
@@ -6,6 +12,12 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+ 
+ 
+ //Given: a pointer the head of the list, and an integer n.
+ //Returns: a pointer to the head of the same linked list, except that
+ //         the n^th node from the end of the list has been removed from
+ //         the list. 
 ListNode* removeNthFromEnd(ListNode* head, int n) {
     int j = 0;
     ListNode* head1 = head;
